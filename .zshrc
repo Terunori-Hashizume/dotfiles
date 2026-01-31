@@ -3,7 +3,7 @@ eval "$(rbenv init -)"
 # alias
 
 alias google="~/shell_tools/google_search.sh"
-alias vi="nvim"
+alias vi="vim"
 alias c="clear"
 alias la="ls -a"
 alias ll="ls -l"
@@ -14,9 +14,11 @@ alias cnfen="vi ~/.zshenv"
 alias srczsh="source ~/.zshenv && source ~/.zshrc"
 
 # competitive programmingg
-alias run="~/aoj/tools/run_test_cases.sh"
-alias mkatcdir="~/aoj/tools/make_problem_dirs.sh"
-alias load_tasks="~/aoj/tools/load_tasks_html.sh"
+alias g++="/usr/local/bin/g++-8"
+alias run="~/kyo_pro/tools/run.sh"
+alias runtest="~/kyo_pro/tools/run_test_cases.sh"
+alias mkatcdir="~/kyo_pro/tools/make_problem_dirs.sh"
+alias load_tasks="~/kyo_pro/tools/load_tasks_html.sh"
 
 # emacs keybinding
 bindkey -e
