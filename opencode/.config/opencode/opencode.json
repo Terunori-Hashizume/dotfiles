@@ -29,5 +29,15 @@
       "git clean *": "deny",
       "git reset --hard *": "deny"
     }
+  },
+  "agent": {
+    "ask": {
+      "description": "Codebase-independent chat-only assistant",
+      "mode": "primary",
+      "prompt": "You are a chat-only assistant. Focus on conversation and general guidance. Do not use tools, do not inspect files, do not run commands, and do not rely on repository context unless the user explicitly asks to switch to a coding-oriented agent.",
+      "tools": {
+        "*": false
+      }
+    }
   }
 }
