@@ -21,6 +21,7 @@ This repository manages dotfiles using GNU Stow. Packages live at the repo root 
 - ghostty: `~/.config/ghostty/config`
 - starship: `~/.config/starship.toml`
 - fish: ONLY `~/.config/fish/config.fish` and `~/.config/fish/fish_plugins`
+- zsh: `~/.zshrc`, `~/.zshenv`, `~/.config/sheldon/plugins.toml`
 
 Anything else in `~/.config` is not managed unless explicitly approved by the user first.
 
